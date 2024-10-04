@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid #687291;
+    display: flex;
+    justify-content: center;
+}
+
+.box1, .box3, .box5 {
+    background-color: #dfe1e7;
+}
+
+.box2, .box4 {
+    background-color: #eeeff2;
+}
+
+.box6 {
+    background-color: #687291;
+    color: black;
+    border: 4px solid black;
+    align-items: center;
+}
